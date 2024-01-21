@@ -1,0 +1,90 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('public/fuji-berg-mit-milchstrasse-in-der-nacht (1).png'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  .navbar {
+    margin: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 8.906px;
+    background: rgba(217, 217, 217, 0.12);
+    box-shadow: -3.943px 3.943px 3.943px 0px rgba(255, 255, 255, 0.43) inset, 3.943px -3.943px 3.943px 0px rgba(182, 182, 182, 0.43) inset;
+    backdrop-filter: blur(25.034873962402344px);
+  }
+  
+  .navbar h3 {
+    margin: 0;
+    color: white;
+    font-size: 17.813px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 19.95px
+    
+  }
+  
+  .navbar button {
+    border: none;
+    cursor: pointer;
+    background: none;
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  
+  .headline {
+    text-align: center;
+    margin-top: 100px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 3.563px 3.563px rgba(0, 0, 0, 0.25);
+    font-family: sans-serif;
+    font-size: 41.25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 67.638px;
+  }
+  
+  .search-bar{
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-input {
+    border: none;
+    padding: 20px;
+    color:#FFF;
+    border-radius: 5px 0 0 5px;
+    width: 60%; /* Expand to fill the container */
+    font-size: 16px;
+    border-radius: 8.906px;
+    background: rgba(217, 217, 217, 0.12);
+    box-shadow: -3.943px 3.943px 3.943px 0px rgba(255, 255, 255, 0.43) inset, 3.943px -3.943px 3.943px 0px rgba(182, 182, 182, 0.43) inset;
+    backdrop-filter: blur(25.034873962402344px);
+  }
+  
+  .search-button {
+    margin-left: 10px;
+    background:rgba(217, 217, 217, 0.12);
+    box-shadow: -3.943px 3.943px 3.943px 0px rgba(255, 255, 255, 0.43) inset, 3.943px -3.943px 3.943px 0px rgba(182, 182, 182, 0.43) inset;
+    backdrop-filter: blur(25.034873962402344px); /* Adjust the background color */
+    color: #fff; /* Adjust the text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    border-radius: 8.906px;
+    border: 2.672px solid #FFF;
+    width: 70.359px;
+    height: 34.734px;
+  }
+  
+  
